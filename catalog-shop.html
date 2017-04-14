@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	
+		<meta charset="utf-8">
+		<title>HTML Academy: Барбершоп</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="container">
+				<img  src="#" alt="Barbershop">
+				<nav class="header-navigation">
+					<ul>
+						<li><a href="#">ИНФОРМАЦИЯ</a></li>
+						<li><a href="#">НОВОСТИ</a></li>
+						<li><a href="#">ПРАЙС-ЛИСТ</a></li>
+						<li class="opened">МАГАЗИН</li>
+						<li><a href="#">КОНТАКТЫ</a></li>
+					</ul>
+				</nav>
+				<a class="header-btn btn" href="#">ВХОД</a>
+			</div>
+		</header>
+		
+		<section class="main-shop">
+			<div class="container">
+				<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+				<div class="breadcrumbs">
+					<ul>
+						<li><a href="#">ГЛАВНАЯ</a></li>
+						<li><a href="#">МАГАЗИН</a></li>
+						<li class="opened">СРЕДСТВА ДЛЯ УХОДА</li>
+					</ul>
+				</div>
+				<form class="shop-form">
+					<h2>ПРОИЗВОДИТЕЛИ:</h2>				
+					<input id="producers-baxter" type="checkbox" name="baxter" checked>
+					<label for="producers-baxter">BAXTER OF CALIFORNIA</label>
+					<br>
+					<input id="producers-natty" type="checkbox" name="natty" >
+					<label for="producers-natty">MR NATTY</label>
+					<br>
+					<input id="producers-suavecito" type="checkbox" name="suavecito" checked>
+					<label for="producers-suavecito">SUAVECITO</label>
+					<br>
+					<input id="producers-malingoetz" type="checkbox" name="malingoetz" >
+					<label for="producers-malingoetz">MALIN+GOETZ</label>
+					<br>
+					<input id="producers-murrays" type="checkbox" name="murrays" >
+					<label for="producers-murrays">MURRAY'S</label>
+					<br>
+					<input id="producers-american" type="checkbox" name="american" checked>
+					<label for="producers-american">AMERICAN CREW</label>
+					<h2>ГРУППЫ ТОВАРОВ:</h2>
+					<input id="categories-shaving" type="radio" name="categories" value="shaving">
+					<label for="categories-shaving">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+					<br>
+					<input id="categories-care" type="radio" name="categories" value="care" checked>
+					<label for="categories-care">СРЕДСТВА ДЛЯ УХОДА</label>
+					<br>
+					<input id="categories-tools" type="radio" name="categories" value="tools">
+					<label for="categories-tools">АКСЕССУАРЫ</label>
+					<br>
+					<input class="form-btn btn" type="submit" value="ПОКАЗАТЬ">
+				</form>
+				<section class="shop-gallery">
+					<div class="gallery-item">
+						<a class="gallery-icon" href="#"><img  src="#" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»"></a>
+						<a class="gallery-title" href="#">НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</a>
+						<div class="gallery-price">
+							2900 РУБ.
+						</div>
+						<button class="buy-btn btn" name="buy-travelstuff">КУПИТЬ</button> 
+					</div>
+					<div class="gallery-item">
+						<a class="gallery-icon" href="#"><img  src="#" alt="УВЛАЖНЯЮЩИЙ КОНДИЦИОНЕР «BAXTER OF CALIFORNIA»"></a>
+						<a class="gallery-title" href="#">УВЛАЖНЯЮЩИЙ КОНДИЦИОНЕР «BAXTER OF CALIFORNIA»</a>
+						<div class="gallery-price">
+							750 РУБ.
+						</div>
+						<button class="buy-btn btn" name="buy-conditioner">КУПИТЬ</button> 
+					</div>
+					<div class="gallery-item">
+						<a class="gallery-icon" href="#"><img  src="#" alt="ГЕЛЬ ДЛЯ ВОЛОС «SUAVECITO»"></a>
+						<a class="gallery-title" href="#">ГЕЛЬ ДЛЯ ВОЛОС «SUAVECITO»</a>
+						<div class="gallery-price">
+							290 РУБ.
+						</div>
+						<button class="buy-btn btn" name="buy-gelsavetico">КУПИТЬ</button> 
+					</div>
+					<div class="gallery-item">
+						<a class="gallery-icon" href="#"><img  src="#" alt="ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС «AMERICAN CREW»"></a>
+						<a class="gallery-title" href="#">ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС «AMERICAN CREW»</a>
+						<div class="gallery-price">
+							500 РУБ
+						</div>
+						<button class="buy-btn btn" name="buy-clay">КУПИТЬ</button> 
+					</div>
+					<div class="gallery-item">
+						<a class="gallery-icon" href="#"><img  src="#" alt="ГЕЛЬ ДЛЯ ВОЛОС «AMERICAN CREW»"></a>
+						<a class="gallery-title" href="#">ГЕЛЬ ДЛЯ ВОЛОС «AMERICAN CREW»</a>
+						<div class="gallery-price">
+							300 РУБ
+						</div>
+						<button class="buy-btn btn" name="buy-gelamerican">КУПИТЬ</button> 
+					</div>
+					<div class="gallery-item">
+						<a class="gallery-icon" href="#"><img  src="#" alt="НАБОР ДЛЯ БРИТЬЯ «BAXTER OF CALIFORNIA»"></a>
+						<a class="gallery-title" href="#">НАБОР ДЛЯ БРИТЬЯ «BAXTER OF CALIFORNIA»</a>
+						<div class="gallery-price">
+							750 РУБ
+						</div>
+						<button class="buy-btn btn" name="buy-shavetools">КУПИТЬ</button> 
+					</div>
+				</section>
+				<section class="gallery-navigation">
+					<nav>
+						<ul>
+							<li><a href="#">1</a></li>
+							<li class="opened">2</li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>
+					</nav>
+				</section>
+			</div>
+		</section>
+			
+		<footer class="main-footer">
+			 <div class="container">
+				<div class="footer-contacts">
+					Барбершоп «Бородинский»<br>
+					Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+					<a href="#">Как нас найти?</a><br>
+					Телефон: +7 (812) 666-02-66
+				</div>
+				<div class="footer-social">
+					<p>Давайте дружить!</p>
+					<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+					<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+				</div>
+				<div class="footer-copyright">
+					<p>Разработано:</p>
+					<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+				</div>
+			 </div>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
