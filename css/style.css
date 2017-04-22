@@ -1,0 +1,10 @@
+body {
+    font-style: PT Sans, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
