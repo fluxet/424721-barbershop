@@ -7,35 +7,31 @@
     </head>
     <body>
         <header class="main-header">
-            <div class="container">
-                <a href="index.html" ><img  src="#" alt="Barbershop"></a>
-                <nav class="header-navigation">
-                    <ul>
-                        <li><a href="#">Информация</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="#">Прайс-лист</a></li>
-                        <li class="nav-active" ><a>Магазин</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
+            <div class="container clearfix">
+                <div class="main-navigation">
+                    <a href="index.html" ><img  src="#" alt="Barbershop"></a>
+                    <nav class="header-navigation">
+                    </nav>  
+                </div>
                 <a class="header-btn btn" href="#">Вход</a>
             </div>
         </header>
         <section class="main-item">
-            <div class="container">
+            <div class="container clearfix">
                 <h1>Набор для путешествий "Baxter of california"</h1>       
                 <ul class="breadcrumbs">
                     <li><a href="#">Главная</a></li>
                     <li><a href="#">Магазин</a></li>
                     <li><a href="#">Средства для ухода</a></li>
                     <li class="breadcrumbs-active">Набор для путешествий "Baxter of california"</li>
-                </ul>           
+                </ul>
+                
                 <div class="item-gallery">
-                    <a class="gallery-icon icon-active" href="#"><img src="#" alt=" "></a>
+                    <a class="gallery-icon icon-active" href="#"><img src="img/bag-up-big.jpg" width="460" height="498" alt=" "></a>
                     <div class="gallery-small">
-                        <a class="gallery-icon icon-small" href="#"><img src="#" alt=" "></a>
-                        <a class="gallery-icon icon-small" href="#"><img src="#" alt=" "></a>
-                        <a class="gallery-icon icon-small" href="#"><img src="#" alt=" "></a>
+                        <a class="gallery-icon icon-small" href="#"><img src="img/bag-down.jpg" alt=" "></a>
+                        <a class="gallery-icon icon-small" href="#"><img src="img/bag-only.jpg" alt=" "></a>
+                        <a class="gallery-icon icon-small" href="#"><img src="img/bag-up-small.jpg" alt=" "></a>
                     </div>
                 </div>
                 <div class="item-description">
@@ -67,7 +63,7 @@
         </section>
         
         <footer class="main-footer">
-             <div class="container">
+             <div class="container clearfix">
                 <div class="footer-contacts">
                     Барбершоп «Бородинский»<br>
                     Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -86,5 +82,13 @@
                 </div>
              </div>
         </footer>
+        <--!подключение плагина pixel perfect -->
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $.pixlayout({clip: true, src: "barbershop-item.jpg", show:true, center:true, top:0, left:0, pervious: false});
+        }); 
+        </script>
     </body>
 </html>

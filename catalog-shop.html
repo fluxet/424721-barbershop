@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-    
         <meta charset="utf-8">
         <title>HTML Academy: Барбершоп</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header class="main-header">
-            <div class="container">
-                <a href="index.html" ><img  src="#" alt="Barbershop"></a>
-                <nav class="header-navigation">
-                    <ul>
-                        <li><a href="#">Информация</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="#">Прайс-лист</a></li>
-                        <li class="nav-active"><a>Магазин</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
+            <div class="container clearfix">
+                <div class="main-navigation">
+                    <a href="index.html" ><img  src="#" alt="Barbershop"></a>
+                    <nav class="header-navigation">
+                        
+                    </nav>
+                </div>
                 <a class="header-btn btn" href="#">Вход</a>
             </div>
         </header>
         
         <section class="main-shop">
-            <div class="container">
+            <div class="container clearfix">
                 <h1>Средства для ухода</h1>
                     <ul class="breadcrumbs">
                         <li><a href="#">Главная</a></li>
@@ -63,48 +59,60 @@
                 </form>
                 <section class="shop-gallery">
                     <div class="gallery-item">
-                        <a class="gallery-icon" href="#"><img  src="#" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»"></a>
-                        <a class="gallery-title" href="#">Набор для путешествий «Baxter of california»</a>
+                        <a class="gallery-icon" href="#"><img  src="img/baxter-travel.jpg" alt="НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»"></a>
+                        <div class="gallery-title-contaiter">
+                            <a class="gallery-title" href="#">Набор для путешествий «Baxter of california»</a>
+                        </div>
                         <div class="gallery-price">
                             2900 Руб.
                         </div>
                         <a class="buy-btn btn" href="#">Купить</a> 
                     </div>
                     <div class="gallery-item">
-                        <a class="gallery-icon" href="#"><img  src="#" alt="УВЛАЖНЯЮЩИЙ КОНДИЦИОНЕР «BAXTER OF CALIFORNIA»"></a>
-                        <a class="gallery-title" href="#">Увлажняющий кондиционер «Baxter of california»</a>
+                        <a class="gallery-icon" href="#"><img  src="img/baxter-conditioner.jpg" alt="УВЛАЖНЯЮЩИЙ КОНДИЦИОНЕР «BAXTER OF CALIFORNIA»"></a>
+                        <div class="gallery-title-contaiter">
+                            <a class="gallery-title" href="#">Увлажняющий кондиционер «Baxter of california»</a>
+                        </div>
                         <div class="gallery-price">
                             750 Руб.
                         </div>
                         <a class="buy-btn btn" href="#">Купить</a> 
                     </div>
                     <div class="gallery-item">
-                        <a class="gallery-icon" href="#"><img  src="#" alt="ГЕЛЬ ДЛЯ ВОЛОС «SUAVECITO»"></a>
-                        <a class="gallery-title" href="#">Гель для волос «Suavecito»</a>
+                        <a class="gallery-icon" href="#"><img  src="img/suavecito-gel.jpg" alt="ГЕЛЬ ДЛЯ ВОЛОС «SUAVECITO»"></a>
+                        <div class="gallery-title-contaiter">
+                            <a class="gallery-title" href="#">Гель для волос «Suavecito»</a>
+                        </div>
                         <div class="gallery-price">
                             290 Руб.
                         </div>
                         <a class="buy-btn btn" href="#">Купить</a> 
                     </div>
                     <div class="gallery-item">
-                        <a class="gallery-icon" href="#"><img  src="#" alt="ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС «AMERICAN CREW»"></a>
-                        <a class="gallery-title" href="#">Глина для укладки волос «American crew»</a>
+                        <a class="gallery-icon" href="#"><img  src="img/american-clew.jpg" alt="ГЛИНА ДЛЯ УКЛАДКИ ВОЛОС «AMERICAN CREW»"></a>
+                        <div class="gallery-title-contaiter">
+                            <a class="gallery-title" href="#">Глина для укладки волос «American crew»</a>
+                        </div>
                         <div class="gallery-price">
                             500 Руб
                         </div>
                         <a class="buy-btn btn" href="#">Купить</a> 
                     </div>
                     <div class="gallery-item">
-                        <a class="gallery-icon" href="#"><img  src="#" alt="ГЕЛЬ ДЛЯ ВОЛОС «AMERICAN CREW»"></a>
-                        <a class="gallery-title" href="#">Гель для волос «American crew»</a>
+                        <a class="gallery-icon" href="#"><img  src="img/american-gel.jpg" alt="ГЕЛЬ ДЛЯ ВОЛОС «AMERICAN CREW»"></a>
+                        <div class="gallery-title-contaiter">
+                            <a class="gallery-title" href="#">Гель для волос «American crew»</a>
+                        </div>
                         <div class="gallery-price">
                             300 Руб
                         </div>
                         <a class="buy-btn btn" href="#">Купить</a> 
                     </div>
                     <div class="gallery-item">
-                        <a class="gallery-icon" href="#"><img  src="#" alt="НАБОР ДЛЯ БРИТЬЯ «BAXTER OF CALIFORNIA»"></a>
-                        <a class="gallery-title" href="#">Набор для бритья «Baxter of california»</a>
+                        <a class="gallery-icon" href="#"><img  src="img/baxter-shave.jpg" alt="НАБОР ДЛЯ БРИТЬЯ «BAXTER OF CALIFORNIA»"></a>
+                        <div class="gallery-title-contaiter">
+                            <a class="gallery-title" href="#">Набор для бритья «Baxter of california»</a>
+                        </div>
                         <div class="gallery-price">
                             750 Руб
                         </div>
@@ -121,7 +129,7 @@
         </section>
             
         <footer class="main-footer">
-             <div class="container">
+             <div class="container clearfix">
                 <div class="footer-contacts">
                     Барбершоп «Бородинский»<br>
                     Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -140,5 +148,13 @@
                 </div>
              </div>
         </footer>
+        <--!подключение плагина pixel perfect -->
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $.pixlayout({clip: true, src: "barbershop-shop.jpg", show:true, center:true, top:0, left:0, pervious: false});
+        }); 
+        </script>
     </body>
 </html>
