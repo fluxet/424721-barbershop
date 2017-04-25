@@ -9,8 +9,15 @@
         <header class="main-header">
             <div class="container clearfix">
                 <div class="main-navigation">
-                    <a href="index.html" ><img  src="#" alt="Barbershop"></a>
+                    <a class="header-logo" href="index.html"><img  src="img/header-logo.png" alt="Barbershop"></a>
                     <nav class="header-navigation">
+						<ul>
+							<li><a href="#">Информация</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Прайс-лист</a></li>
+							<li class="nav-active" ><a>Магазин</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
                     </nav>  
                 </div>
                 <a class="header-btn btn" href="#">Вход</a>
@@ -82,13 +89,5 @@
                 </div>
              </div>
         </footer>
-        <--!подключение плагина pixel perfect -->
-        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-        <script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
-        <script type="text/javascript">
-            $(function(){
-                $.pixlayout({clip: true, src: "barbershop-item.jpg", show:true, center:true, top:0, left:0, pervious: false});
-        }); 
-        </script>
     </body>
 </html>

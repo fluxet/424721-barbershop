@@ -1,7 +1,6 @@
 html,
 body {
     min-width: 1122px;
-    min-height:175px;
     margin: 0px;
     padding: 0px;
     
@@ -18,20 +17,27 @@ h1 {
 .container {
     width: 940px;
     margin: 0px auto;
-    padding: 0px;
+    padding: 0 10px;
 }
 .main-header {
     margin-bottom: 60px;
 }
 .main-navigation {
-    min-height: 70px;
     float: left;
     width: 780px;
 }
-.main-navigation li {
-    display: inline-block;
+.header-logo {
+	float: left;
 
 }
+.header-navigation {
+	margin-left: 130px;
+}
+.header-navigation li {
+	display: inline-block;
+	margin-right: 35px;
+}
+
 .header-btn {
     display: block;
     float: right;
@@ -45,8 +51,7 @@ h1 {
 .breadcrumbs li {
     display: block;
     float: left;
-    margin-left: -30px;
-    margin-right: 60px;
+  
 }
 .breadcrumbs {
     margin-bottom: 98px;
